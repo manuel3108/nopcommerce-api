@@ -1,0 +1,25 @@
+{
+  "name": "@nopcommerce/backend",
+  "version": "1.06.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuel3108/nopcommerce-api.git"
+  },
+  "keywords": [
+    "openapi",
+    "nopcommerce",
+    "nopcommerce-api",
+    "nopcommerce-api-backend",
+    "nopcommerce-web-api",
+    "nopcommerce-web-api-backend"
+  ],
+  "author": "Manuel Serret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuel3108/nopcommerce-api/issues"
+  },
+  "homepage": "https://github.com/manuel3108/nopcommerce-api#readme",
+  "type": "module"
+}

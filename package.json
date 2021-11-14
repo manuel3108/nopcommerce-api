@@ -1,0 +1,27 @@
+{
+  "name": "nopcommerce-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node updateApi.js && tsc",
+    "release": "npm publish ./packages/frontend --access public && npm publish ./packages/backend --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuel3108/nopcommerce-api.git"
+  },
+  "keywords": [],
+  "author": "Manuel Serret",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuel3108/nopcommerce-api/issues"
+  },
+  "homepage": "https://github.com/manuel3108/nopcommerce-api#readme",
+  "type": "module",
+  "devDependencies": {
+    "node-fetch": "^2.6.6",
+    "openapi-typescript-codegen": "^0.12.1",
+    "typescript": "^4.4.4"
+  }
+}
